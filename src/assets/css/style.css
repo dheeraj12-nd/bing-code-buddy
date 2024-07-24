@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, ul, li, ol, a{ font-family: "Poppins", sans-serif !important;}
+h1,h2,h3,h4,h5,h6{ font-family: "Poppins", sans-serif !important;}
+
+
+
+
+
+.search-bar input {
+    border-radius: 50px !important;
+    height: 50px;
+    display: flex;
+}
+
+.title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.slick-prev {
+    background-image: url(../left-arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+.slick-next {
+    background-image: url(../right-arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+.slick-prev:hover, .slick-next:hover{opacity: .7;transition: ease all .7s;}
+
+.slick-prev:before, .slick-next:before{display: none;}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.main{position:relative;}
+.slider {
+    padding-top: 22% !important;
+}
+.logo-sec {
+    width: 100%;
+    padding-top: 15px !important;
+}
+.search-bar .pl-10 {
+    padding-left: 1.5rem !important;
+}
+input:focus-visible{outline:none;}
+.search-bar .text-gray-500 {
+    --tw-text-opacity: 1;
+    color: #174ae4;
+    font-size: 14px;
+}
+.search-bar svg:hover {
+    opacity: .7;
+    transition: ease all .7s
+}
+.language-txt a {
+    font-size: 12px;
+    /* text-shadow: 2px 2px 4px #000; */
+}
+
+.language-txt a:hover{cursor: pointer;}
+
+  
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .slider.container {
+    max-width: 900px;
+}
+.search-bar {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .slider.container {
+    max-width: 900px;
+}
+.search-bar {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.w-2\/4 {
+    width: 100%;
+}
+.search-options a{display: none;}
+
+.slick-prev {
+    background-image: url(../left-arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+.slick-next {
+    background-image: url(../right-arrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .slider.container {
+        max-width: 900px;
+    }
+    .search-bar {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .w-2\/4 {
+        width: 100%;
+    }
+    .search-options a{display: none;}
+    
+    .slick-prev {
+        background-image: url(../left-arrow.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: contain !important;
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .slick-next {
+        background-image: url(../right-arrow.png) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: contain !important;
+        width: 15px !important;
+        height: 15px !important;
+    }
+}
