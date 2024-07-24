@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bing-code-buddy/static/css/main.0c4f03ec.css",
+    "main.js": "/bing-code-buddy/static/js/main.92149037.js",
+    "static/js/453.81d3a464.chunk.js": "/bing-code-buddy/static/js/453.81d3a464.chunk.js",
+    "static/media/bing-bg.jpg": "/bing-code-buddy/static/media/bing-bg.56391c4be40f2e0f42a6.jpg",
+    "static/media/bing-logo.png": "/bing-code-buddy/static/media/bing-logo.44ab0f7f50e30d415276.png",
+    "static/media/slick.svg": "/bing-code-buddy/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/bing-code-buddy/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/bing-code-buddy/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/bing-code-buddy/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/bing-code-buddy/index.html",
+    "main.0c4f03ec.css.map": "/bing-code-buddy/static/css/main.0c4f03ec.css.map",
+    "main.92149037.js.map": "/bing-code-buddy/static/js/main.92149037.js.map",
+    "453.81d3a464.chunk.js.map": "/bing-code-buddy/static/js/453.81d3a464.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c4f03ec.css",
+    "static/js/main.92149037.js"
+  ]
+}
